@@ -1,32 +1,47 @@
 
 ## 🚀 How to use
 
-First install Node Js and give the below commands. 
+## 1️⃣ Install Node.js
+Make sure **Node.js** is installed on your system.  
+Download from: [https://nodejs.org/](https://nodejs.org/)
 
+---
+## 2️⃣ Install Required CLI Tools
+Run the following commands in your terminal:
 ```sh
 npm install -g expo-cli
 npm install -g eas-cli
-npm install eas build -p android --profile preview
-
+```
+## 3️⃣ Create the Expo App
+```sh
 npx create-expo-app -e with-router
 ```
+## 4️⃣ Build the App for Android (Preview Profile)
+```sh
+npm install
+eas build -p android --profile preview
+```
+📂 Files to Use from the Repository
+app folder → Front-End
 
-The files you should be using from these repostories are 
+moneybook folder → Back-End
 
-app folder -> Front-End
-moneybook folder -> Back-End
-Babel.config
+babel.config.js → Required configuration
 
-Make sure while running the application, update the url.js and other ip in the front-end files such as
 
-App
-Cashin
-Cashout
-Dashboard
 
-*The IP of your system must be replaced*
+⚙️ Configuration Before Running
+Update url.js and any IP references in the following files:
 
-## Deploy
+App.js
+
+Cashin.js
+
+Cashout.js
+
+Dashboard.js
+
+Note: Replace the IP address with your system’s local IP address.
 
 
 ## 📝 Notes

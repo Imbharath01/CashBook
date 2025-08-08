@@ -1,19 +1,33 @@
-# Expo Router Example
-
-Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
 
 ## 🚀 How to use
 
+First install Node Js and give the below commands. 
+
 ```sh
+npm install -g expo-cli
+npm install -g eas-cli
+npm install eas build -p android --profile preview
+
 npx create-expo-app -e with-router
 ```
 
+The files you should be using from these repostories are 
+
+app folder -> Front-End
+moneybook folder -> Back-End
+Babel.config
+
+Make sure while running the application, update the url.js and other ip in the front-end files such as
+
+App
+Cashin
+Cashout
+Dashboard
+
+*The IP of your system must be replaced*
+
 ## Deploy
 
-Deploy on all platforms with Expo Application Services (EAS).
-
-- Deploy the website: `npx eas-cli deploy` — [Learn more](https://docs.expo.dev/eas/hosting/get-started/)
-- Deploy on iOS and Android using: `npx eas-cli build` — [Learn more](https://expo.dev/eas)
 
 ## 📝 Notes
 

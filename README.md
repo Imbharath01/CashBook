@@ -22,6 +22,7 @@ npm install
 eas build -p android --profile preview
 ```
 📂 Files to Use from the Repository
+
 app folder → Front-End
 
 moneybook folder → Back-End
